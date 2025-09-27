@@ -1,0 +1,299 @@
+Time execution: 62min 12s
+
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/activiti/50d8e43eb5917c63abfbcdec1e68e510943f325a/source/org/activiti/engine/impl/persistence/entity/DeploymentEntityManager/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/activiti/50d8e43eb5917c63abfbcdec1e68e510943f325a/source/org/activiti/engine/impl/persistence/entity/DeploymentEntityManager/merge.java
+[1] activiti:50d8e43eb5917c63abfbcdec1e68e510943f325a -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/activiti/bf46684ba62f5883673ea8fb0a14aecfe0aedea2/source/org/activiti/engine/impl/bpmn/behavior/UserTaskActivityBehavior/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/activiti/bf46684ba62f5883673ea8fb0a14aecfe0aedea2/source/org/activiti/engine/impl/bpmn/behavior/UserTaskActivityBehavior/merge.java
+[2] activiti:bf46684ba62f5883673ea8fb0a14aecfe0aedea2 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/alluxio/dafe76c90024a915224264b4862b33f40cb8478c/source/tachyon/hadoop/HdfsFileInputStream/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/alluxio/dafe76c90024a915224264b4862b33f40cb8478c/source/tachyon/hadoop/HdfsFileInputStream/merge.java
+[3] alluxio:dafe76c90024a915224264b4862b33f40cb8478c -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/cloud-slang/20bac30d9bd76569aa6a4fa1e8261c1a9b5e6f76/source/io/cloudslang/lang/api/SlangImpl/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/cloud-slang/20bac30d9bd76569aa6a4fa1e8261c1a9b5e6f76/source/io/cloudslang/lang/api/SlangImpl/merge.java
+[4] cloud-slang:20bac30d9bd76569aa6a4fa1e8261c1a9b5e6f76 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/cucumber-jvm/4505c156b6267c1b760deec570ddbfe047b42aa9/source/cuke4duke/internal/java/JavaLanguage/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/cucumber-jvm/4505c156b6267c1b760deec570ddbfe047b42aa9/source/cuke4duke/internal/java/JavaLanguage/merge.java
+[5] cucumber-jvm:4505c156b6267c1b760deec570ddbfe047b42aa9 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/dropwizard/ddd15a681bf42360337844412cae4aba1556eb88/source/io/dropwizard/setup/Bootstrap/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/dropwizard/ddd15a681bf42360337844412cae4aba1556eb88/source/io/dropwizard/setup/Bootstrap/merge.java
+[6] dropwizard:ddd15a681bf42360337844412cae4aba1556eb88 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/druid/05168808c278c080c59c19e858d9471b316cd1f5/source/com/metamx/druid/loading/S3SegmentPusher/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/druid/05168808c278c080c59c19e858d9471b316cd1f5/source/com/metamx/druid/loading/S3SegmentPusher/merge.java
+[7] druid:05168808c278c080c59c19e858d9471b316cd1f5 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/d896886973660785aac45275ddb110c1a6babc57/source/org/elasticsearch/action/index/TransportIndexAction/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/d896886973660785aac45275ddb110c1a6babc57/source/org/elasticsearch/action/index/TransportIndexAction/merge.java
+[8] elasticsearch:d896886973660785aac45275ddb110c1a6babc57 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/d896886973660785aac45275ddb110c1a6babc57/source/org/elasticsearch/action/support/replication/ReplicationOperationTests/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/d896886973660785aac45275ddb110c1a6babc57/source/org/elasticsearch/action/support/replication/ReplicationOperationTests/merge.java
+[9] elasticsearch:d896886973660785aac45275ddb110c1a6babc57 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/d896886973660785aac45275ddb110c1a6babc57/source/org/elasticsearch/index/IndexSettings/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/d896886973660785aac45275ddb110c1a6babc57/source/org/elasticsearch/index/IndexSettings/merge.java
+[10] elasticsearch:d896886973660785aac45275ddb110c1a6babc57 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/d896886973660785aac45275ddb110c1a6babc57/source/org/elasticsearch/action/bulk/TransportShardBulkAction/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/d896886973660785aac45275ddb110c1a6babc57/source/org/elasticsearch/action/bulk/TransportShardBulkAction/merge.java
+[11] elasticsearch:d896886973660785aac45275ddb110c1a6babc57 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/d896886973660785aac45275ddb110c1a6babc57/source/org/elasticsearch/action/support/replication/TransportReplicationAction/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/d896886973660785aac45275ddb110c1a6babc57/source/org/elasticsearch/action/support/replication/TransportReplicationAction/merge.java
+[12] elasticsearch:d896886973660785aac45275ddb110c1a6babc57 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/d896886973660785aac45275ddb110c1a6babc57/source/org/elasticsearch/action/support/replication/ReplicationOperation/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/d896886973660785aac45275ddb110c1a6babc57/source/org/elasticsearch/action/support/replication/ReplicationOperation/merge.java
+[13] elasticsearch:d896886973660785aac45275ddb110c1a6babc57 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/d896886973660785aac45275ddb110c1a6babc57/source/org/elasticsearch/index/engine/InternalEngineTests/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/d896886973660785aac45275ddb110c1a6babc57/source/org/elasticsearch/index/engine/InternalEngineTests/merge.java
+[14] elasticsearch:d896886973660785aac45275ddb110c1a6babc57 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/d896886973660785aac45275ddb110c1a6babc57/source/org/elasticsearch/index/engine/InternalEngine/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/d896886973660785aac45275ddb110c1a6babc57/source/org/elasticsearch/index/engine/InternalEngine/merge.java
+[15] elasticsearch:d896886973660785aac45275ddb110c1a6babc57 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/d896886973660785aac45275ddb110c1a6babc57/source/org/elasticsearch/action/DocWriteResponse/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/d896886973660785aac45275ddb110c1a6babc57/source/org/elasticsearch/action/DocWriteResponse/merge.java
+[16] elasticsearch:d896886973660785aac45275ddb110c1a6babc57 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/d896886973660785aac45275ddb110c1a6babc57/source/org/elasticsearch/action/DocWriteResponse/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/d896886973660785aac45275ddb110c1a6babc57/source/org/elasticsearch/action/DocWriteResponse/merge.java
+[17] elasticsearch:d896886973660785aac45275ddb110c1a6babc57 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/d896886973660785aac45275ddb110c1a6babc57/source/org/elasticsearch/action/DocWriteResponse/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/d896886973660785aac45275ddb110c1a6babc57/source/org/elasticsearch/action/DocWriteResponse/merge.java
+[18] elasticsearch:d896886973660785aac45275ddb110c1a6babc57 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/d896886973660785aac45275ddb110c1a6babc57/source/org/elasticsearch/cluster/metadata/MetaDataCreateIndexService/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/d896886973660785aac45275ddb110c1a6babc57/source/org/elasticsearch/cluster/metadata/MetaDataCreateIndexService/merge.java
+[19] elasticsearch:d896886973660785aac45275ddb110c1a6babc57 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/d896886973660785aac45275ddb110c1a6babc57/source/org/elasticsearch/action/update/TransportUpdateAction/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/d896886973660785aac45275ddb110c1a6babc57/source/org/elasticsearch/action/update/TransportUpdateAction/merge.java
+[20] elasticsearch:d896886973660785aac45275ddb110c1a6babc57 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/d896886973660785aac45275ddb110c1a6babc57/source/org/elasticsearch/action/delete/TransportDeleteAction/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/d896886973660785aac45275ddb110c1a6babc57/source/org/elasticsearch/action/delete/TransportDeleteAction/merge.java
+[21] elasticsearch:d896886973660785aac45275ddb110c1a6babc57 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/3764b3ff800c94293aba0bb0fa18c7df80a764f7/source/org/elasticsearch/rest/action/cat/RestNodesAction/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/3764b3ff800c94293aba0bb0fa18c7df80a764f7/source/org/elasticsearch/rest/action/cat/RestNodesAction/merge.java
+[22] elasticsearch:3764b3ff800c94293aba0bb0fa18c7df80a764f7 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/3764b3ff800c94293aba0bb0fa18c7df80a764f7/source/org/elasticsearch/rest/action/cat/RestIndicesAction/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/3764b3ff800c94293aba0bb0fa18c7df80a764f7/source/org/elasticsearch/rest/action/cat/RestIndicesAction/merge.java
+[23] elasticsearch:3764b3ff800c94293aba0bb0fa18c7df80a764f7 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/3764b3ff800c94293aba0bb0fa18c7df80a764f7/source/org/elasticsearch/rest/action/cat/RestShardsAction/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/3764b3ff800c94293aba0bb0fa18c7df80a764f7/source/org/elasticsearch/rest/action/cat/RestShardsAction/merge.java
+[24] elasticsearch:3764b3ff800c94293aba0bb0fa18c7df80a764f7 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/0404db65e3497452886173957729c8e82cfd4a03/source/org/elasticsearch/test/ESSingleNodeTestCase/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/0404db65e3497452886173957729c8e82cfd4a03/source/org/elasticsearch/test/ESSingleNodeTestCase/merge.java
+[25] elasticsearch:0404db65e3497452886173957729c8e82cfd4a03 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/59cb67c7bd0ab6311115b20954e013412b676b29/source/org/elasticsearch/index/query/support/NestedInnerQueryParseSupport/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/59cb67c7bd0ab6311115b20954e013412b676b29/source/org/elasticsearch/index/query/support/NestedInnerQueryParseSupport/merge.java
+[26] elasticsearch:59cb67c7bd0ab6311115b20954e013412b676b29 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/59cb67c7bd0ab6311115b20954e013412b676b29/source/org/elasticsearch/index/query/MultiMatchQueryBuilder/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/59cb67c7bd0ab6311115b20954e013412b676b29/source/org/elasticsearch/index/query/MultiMatchQueryBuilder/merge.java
+[27] elasticsearch:59cb67c7bd0ab6311115b20954e013412b676b29 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/f3d63095dbcc985e24162fbac4ee0d6914dc757d/source/org/elasticsearch/index/analysis/synonyms/SynonymsAnalysisTest/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/f3d63095dbcc985e24162fbac4ee0d6914dc757d/source/org/elasticsearch/index/analysis/synonyms/SynonymsAnalysisTest/merge.java
+[28] elasticsearch:f3d63095dbcc985e24162fbac4ee0d6914dc757d -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/f3d63095dbcc985e24162fbac4ee0d6914dc757d/source/org/elasticsearch/index/analysis/commongrams/CommonGramsTokenFilterFactoryTests/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/f3d63095dbcc985e24162fbac4ee0d6914dc757d/source/org/elasticsearch/index/analysis/commongrams/CommonGramsTokenFilterFactoryTests/merge.java
+[29] elasticsearch:f3d63095dbcc985e24162fbac4ee0d6914dc757d -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/f3d63095dbcc985e24162fbac4ee0d6914dc757d/source/org/elasticsearch/index/analysis/commongrams/CommonGramsTokenFilterFactoryTests/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/f3d63095dbcc985e24162fbac4ee0d6914dc757d/source/org/elasticsearch/index/analysis/commongrams/CommonGramsTokenFilterFactoryTests/merge.java
+[30] elasticsearch:f3d63095dbcc985e24162fbac4ee0d6914dc757d -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/f3d63095dbcc985e24162fbac4ee0d6914dc757d/source/org/elasticsearch/index/analysis/KuromojiAnalysisTests/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/f3d63095dbcc985e24162fbac4ee0d6914dc757d/source/org/elasticsearch/index/analysis/KuromojiAnalysisTests/merge.java
+[31] elasticsearch:f3d63095dbcc985e24162fbac4ee0d6914dc757d -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/36884807b3cc9d660db4da062275c7fdbec8ba67/source/org/elasticsearch/index/query/SimpleIndexQueryParserTests/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch/36884807b3cc9d660db4da062275c7fdbec8ba67/source/org/elasticsearch/index/query/SimpleIndexQueryParserTests/merge.java
+[32] elasticsearch:36884807b3cc9d660db4da062275c7fdbec8ba67 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch-river-mongodb/3d4f99516ba3177f7d88a1f600923138a8b77cc8/source/org/elasticsearch/river/mongodb/Slurper/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch-river-mongodb/3d4f99516ba3177f7d88a1f600923138a8b77cc8/source/org/elasticsearch/river/mongodb/Slurper/merge.java
+[33] elasticsearch-river-mongodb:3d4f99516ba3177f7d88a1f600923138a8b77cc8 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch-river-mongodb/6b6ce8e851c6613213c4508c3f277a80649e0c7b/source/org/elasticsearch/river/mongodb/MongoDBRiverDefinition/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch-river-mongodb/6b6ce8e851c6613213c4508c3f277a80649e0c7b/source/org/elasticsearch/river/mongodb/MongoDBRiverDefinition/merge.java
+[34] elasticsearch-river-mongodb:6b6ce8e851c6613213c4508c3f277a80649e0c7b -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch-river-mongodb/3d4f99516ba3177f7d88a1f600923138a8b77cc8/source/org/elasticsearch/river/mongodb/MongoDBRiverDefinition/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch-river-mongodb/3d4f99516ba3177f7d88a1f600923138a8b77cc8/source/org/elasticsearch/river/mongodb/MongoDBRiverDefinition/merge.java
+[35] elasticsearch-river-mongodb:3d4f99516ba3177f7d88a1f600923138a8b77cc8 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch-river-mongodb/6b6ce8e851c6613213c4508c3f277a80649e0c7b/source/org/elasticsearch/river/mongodb/Indexer/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch-river-mongodb/6b6ce8e851c6613213c4508c3f277a80649e0c7b/source/org/elasticsearch/river/mongodb/Indexer/merge.java
+[36] elasticsearch-river-mongodb:6b6ce8e851c6613213c4508c3f277a80649e0c7b -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch-river-mongodb/6b6ce8e851c6613213c4508c3f277a80649e0c7b/source/org/elasticsearch/river/mongodb/Indexer/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch-river-mongodb/6b6ce8e851c6613213c4508c3f277a80649e0c7b/source/org/elasticsearch/river/mongodb/Indexer/merge.java
+[37] elasticsearch-river-mongodb:6b6ce8e851c6613213c4508c3f277a80649e0c7b -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch-river-mongodb/6b6ce8e851c6613213c4508c3f277a80649e0c7b/source/org/elasticsearch/river/mongodb/Slurper/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch-river-mongodb/6b6ce8e851c6613213c4508c3f277a80649e0c7b/source/org/elasticsearch/river/mongodb/Slurper/merge.java
+[38] elasticsearch-river-mongodb:6b6ce8e851c6613213c4508c3f277a80649e0c7b -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch-river-mongodb/6b6ce8e851c6613213c4508c3f277a80649e0c7b/source/org/elasticsearch/river/mongodb/Slurper/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/elasticsearch-river-mongodb/6b6ce8e851c6613213c4508c3f277a80649e0c7b/source/org/elasticsearch/river/mongodb/Slurper/merge.java
+[39] elasticsearch-river-mongodb:6b6ce8e851c6613213c4508c3f277a80649e0c7b -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/fitnesse/4d9ba9d221d879507440feb084fa7521b95111ec/source/fitnesse/testsystems/slim/tables/SlimTableFactory/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/fitnesse/4d9ba9d221d879507440feb084fa7521b95111ec/source/fitnesse/testsystems/slim/tables/SlimTableFactory/merge.java
+[40] fitnesse:4d9ba9d221d879507440feb084fa7521b95111ec -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/fitnesse/4d9ba9d221d879507440feb084fa7521b95111ec/source/fitnesse/testsystems/slim/tables/SlimTableFactoryTest/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/fitnesse/4d9ba9d221d879507440feb084fa7521b95111ec/source/fitnesse/testsystems/slim/tables/SlimTableFactoryTest/merge.java
+[41] fitnesse:4d9ba9d221d879507440feb084fa7521b95111ec -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/hector/0588608e7a2bdf974c985ff546207104f672bf6c/source/me/prettyprint/cassandra/connection/client/HSaslThriftClient/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/hector/0588608e7a2bdf974c985ff546207104f672bf6c/source/me/prettyprint/cassandra/connection/client/HSaslThriftClient/merge.java
+[42] hector:0588608e7a2bdf974c985ff546207104f672bf6c -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/hector/a33a46506656a39d1b0f7780973905665d3b6145/source/me/prettyprint/cassandra/connection/client/HKerberosThriftClient/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/hector/a33a46506656a39d1b0f7780973905665d3b6145/source/me/prettyprint/cassandra/connection/client/HKerberosThriftClient/merge.java
+[43] hector:a33a46506656a39d1b0f7780973905665d3b6145 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/hector/213f7887ea70eabdf0705cf8454de29af89e8c38/source/me/prettyprint/cassandra/connection/HConnectionManager/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/hector/213f7887ea70eabdf0705cf8454de29af89e8c38/source/me/prettyprint/cassandra/connection/HConnectionManager/merge.java
+[44] hector:213f7887ea70eabdf0705cf8454de29af89e8c38 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/hector/a33a46506656a39d1b0f7780973905665d3b6145/source/me/prettyprint/cassandra/connection/client/HThriftClient/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/hector/a33a46506656a39d1b0f7780973905665d3b6145/source/me/prettyprint/cassandra/connection/client/HThriftClient/merge.java
+[45] hector:a33a46506656a39d1b0f7780973905665d3b6145 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/HikariCP/1bca94af9ec625f21d1b58ff10efb5be71ab87a6/source/com/zaxxer/hikari/HikariPool/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/HikariCP/1bca94af9ec625f21d1b58ff10efb5be71ab87a6/source/com/zaxxer/hikari/HikariPool/merge.java
+[46] HikariCP:1bca94af9ec625f21d1b58ff10efb5be71ab87a6 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/HikariCP/1bca94af9ec625f21d1b58ff10efb5be71ab87a6/source/com/zaxxer/hikari/HikariConfig/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/HikariCP/1bca94af9ec625f21d1b58ff10efb5be71ab87a6/source/com/zaxxer/hikari/HikariConfig/merge.java
+[47] HikariCP:1bca94af9ec625f21d1b58ff10efb5be71ab87a6 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/java-faker/ca42fcfaf45cae1754c58e02e1d5d2a58ec03561/source/com/github/javafaker/Faker/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/java-faker/ca42fcfaf45cae1754c58e02e1d5d2a58ec03561/source/com/github/javafaker/Faker/merge.java
+[48] java-faker:ca42fcfaf45cae1754c58e02e1d5d2a58ec03561 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/jenkins/48b2b951dfb3438999ceda330093cac82b857ce6/source/jenkins/slaves/DefaultJnlpSlaveReceiver/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/jenkins/48b2b951dfb3438999ceda330093cac82b857ce6/source/jenkins/slaves/DefaultJnlpSlaveReceiver/merge.java
+[49] jenkins:48b2b951dfb3438999ceda330093cac82b857ce6 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/jsoup/fee4762322f85a1109edd75ccb67f38cf5008c80/source/org/jsoup/helper/HttpConnection/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/jsoup/fee4762322f85a1109edd75ccb67f38cf5008c80/source/org/jsoup/helper/HttpConnection/merge.java
+[50] jsoup:fee4762322f85a1109edd75ccb67f38cf5008c80 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/jsoup/a8b6982de98ff76ef254031d7152fff57f6bf941/source/org/jsoup/helper/HttpConnection/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/jsoup/a8b6982de98ff76ef254031d7152fff57f6bf941/source/org/jsoup/helper/HttpConnection/merge.java
+[51] jsoup:a8b6982de98ff76ef254031d7152fff57f6bf941 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/jsoup/3f7d2c71dbbbb289c684f339874eed8ac2747fa0/source/org/jsoup/helper/HttpConnection/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/jsoup/3f7d2c71dbbbb289c684f339874eed8ac2747fa0/source/org/jsoup/helper/HttpConnection/merge.java
+[52] jsoup:3f7d2c71dbbbb289c684f339874eed8ac2747fa0 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/jsoup/a44e18aa3c1fcd25a68a5965f9490d8f7d026509/source/org/jsoup/nodes/TextNode/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/jsoup/a44e18aa3c1fcd25a68a5965f9490d8f7d026509/source/org/jsoup/nodes/TextNode/merge.java
+[53] jsoup:a44e18aa3c1fcd25a68a5965f9490d8f7d026509 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/libgdx/da27e2dae56be0a159e82231e5c3a5b83b099063/source/com/badlogic/gdx/backends/lwjgl3/Lwjgl3Application/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/libgdx/da27e2dae56be0a159e82231e5c3a5b83b099063/source/com/badlogic/gdx/backends/lwjgl3/Lwjgl3Application/merge.java
+[54] libgdx:da27e2dae56be0a159e82231e5c3a5b83b099063 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/libgdx/da27e2dae56be0a159e82231e5c3a5b83b099063/source/com/badlogic/gdx/backends/lwjgl3/Lwjgl3ApplicationConfiguration/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/libgdx/da27e2dae56be0a159e82231e5c3a5b83b099063/source/com/badlogic/gdx/backends/lwjgl3/Lwjgl3ApplicationConfiguration/merge.java
+[55] libgdx:da27e2dae56be0a159e82231e5c3a5b83b099063 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/logback/542843fd04a793fb9e0eea0c84d199e66d7c15af/source/ch/qos/logback/core/rolling/TimeBasedFileNamingAndTriggeringPolicyBase/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/logback/542843fd04a793fb9e0eea0c84d199e66d7c15af/source/ch/qos/logback/core/rolling/TimeBasedFileNamingAndTriggeringPolicyBase/merge.java
+[56] logback:542843fd04a793fb9e0eea0c84d199e66d7c15af -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/MPAndroidChart/af114d180da6ec5633d32c701ff5467f7629fcf3/source/com/xxmassdeveloper/mpchartexample/fragments/SimpleFragment/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/MPAndroidChart/af114d180da6ec5633d32c701ff5467f7629fcf3/source/com/xxmassdeveloper/mpchartexample/fragments/SimpleFragment/merge.java
+[57] MPAndroidChart:af114d180da6ec5633d32c701ff5467f7629fcf3 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/MPAndroidChart/af114d180da6ec5633d32c701ff5467f7629fcf3/source/com/xxmassdeveloper/mpchartexample/ScatterChartActivity/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/MPAndroidChart/af114d180da6ec5633d32c701ff5467f7629fcf3/source/com/xxmassdeveloper/mpchartexample/ScatterChartActivity/merge.java
+[58] MPAndroidChart:af114d180da6ec5633d32c701ff5467f7629fcf3 -> True
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/MPAndroidChart/af114d180da6ec5633d32c701ff5467f7629fcf3/source/com/xxmassdeveloper/mpchartexample/ScatterChartActivity/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/MPAndroidChart/af114d180da6ec5633d32c701ff5467f7629fcf3/source/com/xxmassdeveloper/mpchartexample/ScatterChartActivity/merge.java
+[59] MPAndroidChart:af114d180da6ec5633d32c701ff5467f7629fcf3 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/MPAndroidChart/9297923f09460d0484cd713b0abbeaea9b888ec0/source/com/xxmassdeveloper/mpchartexample/LineChartActivity2/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/MPAndroidChart/9297923f09460d0484cd713b0abbeaea9b888ec0/source/com/xxmassdeveloper/mpchartexample/LineChartActivity2/merge.java
+[60] MPAndroidChart:9297923f09460d0484cd713b0abbeaea9b888ec0 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/MPAndroidChart/9297923f09460d0484cd713b0abbeaea9b888ec0/source/com/xxmassdeveloper/mpchartexample/RadarChartActivitry/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/MPAndroidChart/9297923f09460d0484cd713b0abbeaea9b888ec0/source/com/xxmassdeveloper/mpchartexample/RadarChartActivitry/merge.java
+[61] MPAndroidChart:9297923f09460d0484cd713b0abbeaea9b888ec0 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/MPAndroidChart/9297923f09460d0484cd713b0abbeaea9b888ec0/source/com/xxmassdeveloper/mpchartexample/StackedBarActivityNegative/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/MPAndroidChart/9297923f09460d0484cd713b0abbeaea9b888ec0/source/com/xxmassdeveloper/mpchartexample/StackedBarActivityNegative/merge.java
+[62] MPAndroidChart:9297923f09460d0484cd713b0abbeaea9b888ec0 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/MPAndroidChart/9297923f09460d0484cd713b0abbeaea9b888ec0/source/com/xxmassdeveloper/mpchartexample/LineChartActivity1/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/MPAndroidChart/9297923f09460d0484cd713b0abbeaea9b888ec0/source/com/xxmassdeveloper/mpchartexample/LineChartActivity1/merge.java
+[63] MPAndroidChart:9297923f09460d0484cd713b0abbeaea9b888ec0 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/MPAndroidChart/9531ba69895cd64fce48038ffd8df2543eeea1d2/source/com/github/mikephil/charting/renderer/LineChartRenderer/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/MPAndroidChart/9531ba69895cd64fce48038ffd8df2543eeea1d2/source/com/github/mikephil/charting/renderer/LineChartRenderer/merge.java
+[64] MPAndroidChart:9531ba69895cd64fce48038ffd8df2543eeea1d2 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/MPAndroidChart/9531ba69895cd64fce48038ffd8df2543eeea1d2/source/com/github/mikephil/charting/renderer/PieChartRenderer/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/MPAndroidChart/9531ba69895cd64fce48038ffd8df2543eeea1d2/source/com/github/mikephil/charting/renderer/PieChartRenderer/merge.java
+[65] MPAndroidChart:9531ba69895cd64fce48038ffd8df2543eeea1d2 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/netty/193acdb36cd3da9bfc62dd69c4208dff3f0a2b1b/source/org/jboss/netty/handler/codec/frame/LengthFieldBasedFrameDecoder/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/netty/193acdb36cd3da9bfc62dd69c4208dff3f0a2b1b/source/org/jboss/netty/handler/codec/frame/LengthFieldBasedFrameDecoder/merge.java
+[66] netty:193acdb36cd3da9bfc62dd69c4208dff3f0a2b1b -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/okhttp/35166168529bd27281685e56a0a122eff44460e9/source/com/squareup/okhttp/OkHttpClient/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/okhttp/35166168529bd27281685e56a0a122eff44460e9/source/com/squareup/okhttp/OkHttpClient/merge.java
+[67] okhttp:35166168529bd27281685e56a0a122eff44460e9 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/okhttp/1151c9853ccc3c9c3211c613b9b845b925f8c6a6/source/com/squareup/okhttp/internal/bytes/GzipSource/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/okhttp/1151c9853ccc3c9c3211c613b9b845b925f8c6a6/source/com/squareup/okhttp/internal/bytes/GzipSource/merge.java
+[68] okhttp:1151c9853ccc3c9c3211c613b9b845b925f8c6a6 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/OpenTripPlanner/4c506dce43775704919d084f0acfba86d251bf4a/source/org/opentripplanner/routing/spt/MultiShortestPathTree/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/OpenTripPlanner/4c506dce43775704919d084f0acfba86d251bf4a/source/org/opentripplanner/routing/spt/MultiShortestPathTree/merge.java
+[69] OpenTripPlanner:4c506dce43775704919d084f0acfba86d251bf4a -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/orientdb/a5ce3bcc0a1d196745c575ad6602019f7a6b86f8/source/com/orientechnologies/orient/core/Orient/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/orientdb/a5ce3bcc0a1d196745c575ad6602019f7a6b86f8/source/com/orientechnologies/orient/core/Orient/merge.java
+[70] orientdb:a5ce3bcc0a1d196745c575ad6602019f7a6b86f8 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/pushy/58901c846e4f0874977c5aabbc34bcb4de3670e0/source/com/relayrides/pushy/apns/PushManager/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/pushy/58901c846e4f0874977c5aabbc34bcb4de3670e0/source/com/relayrides/pushy/apns/PushManager/merge.java
+[71] pushy:58901c846e4f0874977c5aabbc34bcb4de3670e0 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/pushy/58901c846e4f0874977c5aabbc34bcb4de3670e0/source/com/relayrides/pushy/apns/PushManager/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/pushy/58901c846e4f0874977c5aabbc34bcb4de3670e0/source/com/relayrides/pushy/apns/PushManager/merge.java
+[72] pushy:58901c846e4f0874977c5aabbc34bcb4de3670e0 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/quickml/bae968d9a85c0501ba8842a6f88e7fc2c6b78693/source/quickdt/experiments/OutOfTimeCrossValidatorRunner/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/quickml/bae968d9a85c0501ba8842a6f88e7fc2c6b78693/source/quickdt/experiments/OutOfTimeCrossValidatorRunner/merge.java
+[73] quickml:bae968d9a85c0501ba8842a6f88e7fc2c6b78693 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/resty-gwt/867b917c43c32acbdcac55767e7f04334006c866/source/org/fusesource/restygwt/rebind/DirectRestServiceInterfaceClassCreator/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/resty-gwt/867b917c43c32acbdcac55767e7f04334006c866/source/org/fusesource/restygwt/rebind/DirectRestServiceInterfaceClassCreator/merge.java
+[74] resty-gwt:867b917c43c32acbdcac55767e7f04334006c866 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/retrofit/2b6c719c6645f8e48dca6d0047c752069d321bc4/source/retrofit/RestAdapter/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/retrofit/2b6c719c6645f8e48dca6d0047c752069d321bc4/source/retrofit/RestAdapter/merge.java
+[75] retrofit:2b6c719c6645f8e48dca6d0047c752069d321bc4 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/retrofit/2b6c719c6645f8e48dca6d0047c752069d321bc4/source/retrofit/RestAdapter/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/retrofit/2b6c719c6645f8e48dca6d0047c752069d321bc4/source/retrofit/RestAdapter/merge.java
+[76] retrofit:2b6c719c6645f8e48dca6d0047c752069d321bc4 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/retrofit/71f622ce51031b152a0be6ad5facfb27a654bf5a/source/retrofit/RequestBuilder/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/retrofit/71f622ce51031b152a0be6ad5facfb27a654bf5a/source/retrofit/RequestBuilder/merge.java
+[77] retrofit:71f622ce51031b152a0be6ad5facfb27a654bf5a -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/RxJava/1c47b0cb26e6d971eefa42ebb3479099236b0125/source/rx/concurrency/TestScheduler/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/RxJava/1c47b0cb26e6d971eefa42ebb3479099236b0125/source/rx/concurrency/TestScheduler/merge.java
+[78] RxJava:1c47b0cb26e6d971eefa42ebb3479099236b0125 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/RxJava/a40a4130edcdadc2340da5787ca30353018173f2/source/rx/internal/operators/OperatorMulticast/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/RxJava/a40a4130edcdadc2340da5787ca30353018173f2/source/rx/internal/operators/OperatorMulticast/merge.java
+[79] RxJava:a40a4130edcdadc2340da5787ca30353018173f2 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/SimianArmy/345ad9513aafff397050d613fa87ad06ddffe99d/source/com/netflix/simianarmy/basic/janitor/BasicJanitorMonkeyContext/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/SimianArmy/345ad9513aafff397050d613fa87ad06ddffe99d/source/com/netflix/simianarmy/basic/janitor/BasicJanitorMonkeyContext/merge.java
+[80] SimianArmy:345ad9513aafff397050d613fa87ad06ddffe99d -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/SimianArmy/c39c19bc6b9231601f6bc7358e638a99adf37e0d/source/com/netflix/simianarmy/basic/BasicSimianArmyContext/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/SimianArmy/c39c19bc6b9231601f6bc7358e638a99adf37e0d/source/com/netflix/simianarmy/basic/BasicSimianArmyContext/merge.java
+[81] SimianArmy:c39c19bc6b9231601f6bc7358e638a99adf37e0d -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/spring-boot/958a0a45f164601d01cb706c19f22ed3e25eff56/source/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/MongoProperties/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/spring-boot/958a0a45f164601d01cb706c19f22ed3e25eff56/source/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/MongoProperties/merge.java
+[82] spring-boot:958a0a45f164601d01cb706c19f22ed3e25eff56 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/spring-boot/af20dc6cc45c032573413c401f9f73aa75371744/source/org/springframework/boot/loader/archive/ExplodedArchiveTests/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/spring-boot/af20dc6cc45c032573413c401f9f73aa75371744/source/org/springframework/boot/loader/archive/ExplodedArchiveTests/merge.java
+[83] spring-boot:af20dc6cc45c032573413c401f9f73aa75371744 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/spring-boot/af20dc6cc45c032573413c401f9f73aa75371744/source/org/springframework/boot/loader/archive/ExplodedArchive/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/spring-boot/af20dc6cc45c032573413c401f9f73aa75371744/source/org/springframework/boot/loader/archive/ExplodedArchive/merge.java
+[84] spring-boot:af20dc6cc45c032573413c401f9f73aa75371744 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/spring-boot/ea8107b6a53fa60b5f23b33e1b6d2e88bb60133c/source/org/springframework/boot/context/embedded/undertow/UndertowEmbeddedServletContainerFactory/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/spring-boot/ea8107b6a53fa60b5f23b33e1b6d2e88bb60133c/source/org/springframework/boot/context/embedded/undertow/UndertowEmbeddedServletContainerFactory/merge.java
+[85] spring-boot:ea8107b6a53fa60b5f23b33e1b6d2e88bb60133c -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/spring-boot/3444ebbc05b99a164474c14d6a6784f749514428/source/spring-boot/src/main/java/org/springframework/boot/context/SpringBootServletInitializer/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/spring-boot/3444ebbc05b99a164474c14d6a6784f749514428/source/spring-boot/src/main/java/org/springframework/boot/context/SpringBootServletInitializer/merge.java
+[86] spring-boot:3444ebbc05b99a164474c14d6a6784f749514428 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/spring-boot/074771ec125dd407af0282b92960e9e9e3377e84/source/spring-boot/src/main/java/org/springframework/boot/context/SpringBootServletInitializer/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/spring-boot/074771ec125dd407af0282b92960e9e9e3377e84/source/spring-boot/src/main/java/org/springframework/boot/context/SpringBootServletInitializer/merge.java
+[87] spring-boot:074771ec125dd407af0282b92960e9e9e3377e84 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/spring-boot/fdd3f12ee0f92ac18844c08bf71df39feebb6673/source/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/AutoConfigurationReportLoggingInitializer/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/spring-boot/fdd3f12ee0f92ac18844c08bf71df39feebb6673/source/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/AutoConfigurationReportLoggingInitializer/merge.java
+[88] spring-boot:fdd3f12ee0f92ac18844c08bf71df39feebb6673 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/spring-boot/2d4e68a9777601bfb8309c94d8b74bc21be80ad1/source/src/main/java/org/springframework/boot/context/embedded/TomcatEmbeddedServletContainerFactory/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/spring-boot/2d4e68a9777601bfb8309c94d8b74bc21be80ad1/source/src/main/java/org/springframework/boot/context/embedded/TomcatEmbeddedServletContainerFactory/merge.java
+[89] spring-boot:2d4e68a9777601bfb8309c94d8b74bc21be80ad1 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/storm/ad2be678831b3b060229fd936e3908110162b7ac/source/org/apache/storm/kafka/spout/KafkaSpout/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/storm/ad2be678831b3b060229fd936e3908110162b7ac/source/org/apache/storm/kafka/spout/KafkaSpout/merge.java
+[90] storm:ad2be678831b3b060229fd936e3908110162b7ac -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/storm/ad2be678831b3b060229fd936e3908110162b7ac/source/org/apache/storm/kafka/spout/KafkaSpoutConfig/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/storm/ad2be678831b3b060229fd936e3908110162b7ac/source/org/apache/storm/kafka/spout/KafkaSpoutConfig/merge.java
+[91] storm:ad2be678831b3b060229fd936e3908110162b7ac -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/storm/ad2be678831b3b060229fd936e3908110162b7ac/source/org/apache/storm/kafka/spout/KafkaSpoutConfig/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/storm/ad2be678831b3b060229fd936e3908110162b7ac/source/org/apache/storm/kafka/spout/KafkaSpoutConfig/merge.java
+[92] storm:ad2be678831b3b060229fd936e3908110162b7ac -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/storm/bd1f5c54752f67b484a83c26667331234234d3a3/source/org/apache/storm/kafka/spout/KafkaSpout/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/storm/bd1f5c54752f67b484a83c26667331234234d3a3/source/org/apache/storm/kafka/spout/KafkaSpout/merge.java
+[93] storm:bd1f5c54752f67b484a83c26667331234234d3a3 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/swagger-core/e7fea7c4889dbdd6a4e0b2d059c8aa0f126ab1c2/source/io/swagger/jaxrs2/OperationParser/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/swagger-core/e7fea7c4889dbdd6a4e0b2d059c8aa0f126ab1c2/source/io/swagger/jaxrs2/OperationParser/merge.java
+[94] swagger-core:e7fea7c4889dbdd6a4e0b2d059c8aa0f126ab1c2 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/titan/387c16ea05ef9fa312f37139228d2bbf61455ff4/source/com/thinkaurelius/titan/graphdb/database/serialize/SerializerInitialization/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/titan/387c16ea05ef9fa312f37139228d2bbf61455ff4/source/com/thinkaurelius/titan/graphdb/database/serialize/SerializerInitialization/merge.java
+[95] titan:387c16ea05ef9fa312f37139228d2bbf61455ff4 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/titan/04edd7f0e7eab2e8255a497922e34dc707d84c19/source/com/thinkaurelius/titan/graphdb/transaction/StandardTitanTx/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/titan/04edd7f0e7eab2e8255a497922e34dc707d84c19/source/com/thinkaurelius/titan/graphdb/transaction/StandardTitanTx/merge.java
+[96] titan:04edd7f0e7eab2e8255a497922e34dc707d84c19 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/voldemort/b30fdfebe30c9b6e37b9fbc3fec0ff74cd19f997/source/voldemort/VoldemortClientShell/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/voldemort/b30fdfebe30c9b6e37b9fbc3fec0ff74cd19f997/source/voldemort/VoldemortClientShell/merge.java
+[97] voldemort:b30fdfebe30c9b6e37b9fbc3fec0ff74cd19f997 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/voldemort/4cc1c145819030c8e2baffe4c92383de14b8d880/source/voldemort/server/VoldemortConfig/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/voldemort/4cc1c145819030c8e2baffe4c92383de14b8d880/source/voldemort/server/VoldemortConfig/merge.java
+[98] voldemort:4cc1c145819030c8e2baffe4c92383de14b8d880 -> False
+Trying URL: https://raw.githubusercontent.com/spgroup/mergedataset/master/webbit/74d2d2b87704d003acacb34e4ca8fb5f897b938f/source/org/webbitserver/netty/WebSocketClient/merge.java
+✅ Code found at: https://raw.githubusercontent.com/spgroup/mergedataset/master/webbit/74d2d2b87704d003acacb34e4ca8fb5f897b938f/source/org/webbitserver/netty/WebSocketClient/merge.java
+[99] webbit:74d2d2b87704d003acacb34e4ca8fb5f897b938f -> False

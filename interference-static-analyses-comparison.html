@@ -474,6 +474,71 @@ To assess the contribution of each static analysis technique, we used the Exclus
 
             </p>
           </div>
+
+          <div id="chatgpt-5-experiment" class="section level3 par-div">
+            <h2>ChatGPT-5 Experiment</h2>
+            <p>To evaluate the capability of large language models in detecting semantic conflicts, we conducted a comprehensive experiment using ChatGPT-5. The complete project, including all implementation scripts, results, and analysis, is available in the <a target="_blank" href="https://github.com/spgroup/papers/tree/master/InterferenceStaticAnalysesComparison/GPT-5">GPT-5 directory</a> of our repository.</p>
+
+            <h3>Experimental Design</h3>
+            <p>We evaluated ChatGPT-5's performance on semantic conflict detection across 99 merge scenarios using two distinct experimental conditions to assess the impact of providing human-crafted summaries:</p>
+            
+            <ul>
+              <li><strong>Experiment 1 - With Summary (<code>exec1_with_summary/</code>):</strong> Included human-crafted summaries describing changes made by each developer</li>
+              <li><strong>Experiment 2 - Without Summary (<code>exec2_without_summary/</code>):</strong> Removed summary fields from prompts, providing only raw modification information and line numbers</li>
+            </ul>
+
+            <h3>Dataset and Methodology</h3>
+            <p>The experiment utilized a comprehensive dataset (<code>units.csv</code>) containing 99 merge scenarios with detailed information for each unit of analysis:</p>
+            <ul>
+              <li>GitHub project name and merge commit hash</li>
+              <li>Java class name and method signature</li>
+              <li>Specific line numbers modified by left and right developers</li>
+              <li>Human-crafted summaries describing the nature of changes</li>
+              <li>Ground truth semantic conflict labels (LOI)</li>
+            </ul>
+
+            <p>For each scenario, the complete source code was retrieved from GitHub repositories, and detailed prompts were constructed including semantic conflict definitions, developer change information, complete code context, and analysis instructions.</p>
+
+            <h3>Experimental Results Structure</h3>
+            <p>Each experiment generated comprehensive output files organized in separate directories:</p>
+            
+            <h4>Experiment 1 Results (<code>exec1_with_summary/</code>):</h4>
+            <ul>
+              <li><strong>results.csv:</strong> ChatGPT-5 conflict predictions with detailed explanations for each of the 99 scenarios</li>
+              <li><strong>prompts_responses.csv:</strong> Complete prompts sent to the API and raw responses for reproducibility</li>
+              <li><strong>log1.txt:</strong> Execution logs including API call details and error handling</li>
+            </ul>
+
+            <h4>Experiment 2 Results (<code>exec2_without_summary/</code>):</h4>
+            <ul>
+              <li><strong>results_without_summary.csv:</strong> ChatGPT-5 predictions without human-crafted summaries</li>
+              <li><strong>prompts_responses_without_summary.csv:</strong> All prompts and responses for the no-summary condition</li>
+              <li><strong>log2.txt:</strong> Detailed execution logs for the second experimental condition</li>
+            </ul>
+
+            <h3>Run Experiment</h3>
+            <p>The repository includes a script used to execute both experimental conditions: <code>run_experiment.sh</code>. This script automates the entire process, from data retrieval to API interaction and result logging.
+            </p>
+            <h3>Technical Implementation Details</h3>
+            <p>The experimental framework implemented robust technical features:</p>
+            <ul>
+              <li><strong>Automated Code Retrieval:</strong> Dynamic fetching of complete source files from GitHub repositories</li>
+              <li><strong>Prompt Engineering:</strong> Structured prompts including precise semantic conflict definitions and contextual information</li>
+              <li><strong>Error Handling:</strong> Retry logic with exponential backoff for API reliability</li>
+              <li><strong>Comprehensive Logging:</strong> Detailed audit trails for all API interactions and responses</li>
+              <li><strong>Rate Limiting:</strong> Respectful API usage with appropriate delays between requests</li>
+            </ul>
+
+            <h3>Reproducibility and Access</h3>
+            <p>The complete experimental setup enables full replication of our ChatGPT-5 evaluation. All materials are available in the <strong><a target="_blank" href="https://github.com/spgroup/papers/tree/master/InterferenceStaticAnalysesComparison/GPT-5">GPT-5 directory</a></strong>, including:</p>
+            <ul>
+              <li>Original implementation scripts and configuration</li>
+              <li>Complete input dataset with 99 annotated merge scenarios</li>
+              <li>Full results from both experimental conditions</li>
+              <li>Script for result analysis (<code>run_experiment.ipynb</code>)</li>
+              <li>Detailed documentation (<code>README_CHATGPT_5.md</code>) with implementation guidelines</li>
+            </ul>
+          </div>
         </div>
 
 
