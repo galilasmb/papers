@@ -60,7 +60,9 @@
   brazil,
   english,            % make English the main language (last in the list)
 	]{abntex2/abntex2}
-	\renewcommand{\baselinestretch}{1.5} %para customizar o espaço entre as linhas do texto
+	\renewcommand{\baselinestretch}{1.5} 
+  
+%para customizar o espaço entre as linhas do texto
 % --
 % SETTINGS
 
@@ -139,7 +141,22 @@
 \usepackage{color}
 \usepackage{hyperref}
 \usepackage{tabularx}
-\usepackage{theorem}
+\usepackage{graphicx}%
+\usepackage{multirow}%
+\usepackage{amsmath,amssymb,amsfonts}%
+\usepackage{amsthm}%
+\usepackage{mathrsfs}%
+\usepackage{algorithm}%
+\usepackage{algorithmicx}%
+\usepackage{algpseudocode}%
+\usepackage{latexsym}
+\usepackage{todonotes}
+\usepackage{xspace}
+\usepackage{changepage} 
+\usepackage{colortbl}
+\usepackage{enumerate}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage[utf8]{inputenc}
 
 % ----------------------------------------------------------
 % PERSONALIZAÇÃO DE CORES
@@ -189,8 +206,19 @@
   literate={á}{{\'a}}1 {ã}{{\~a}}1 {é}{{\'e}}1
 }
 
-\newcommand{\rev}[1]{\textcolor{black}{#1}}
-\newcommand{\revfig}[1]{{\color{blue}\hrulefill}}
+\newcommand{\rsout}[1]{{\color{red}\sout{#1}}}
+\newcommand{\rb}[1]{{\color{blue} {(\bf RB.:} #1)}}
+\newcommand{\pb}[1]{{\color{red} {(\bf P.:} #1)}}
+\newcommand{\gs}[1]{{\color{brown} {(\bf G.:} #1)}}
+\usepackage{xcolor}
+\newcommand{\rev}[1]{\begingroup\color{red}#1\endgroup}
+\newcommand{\ssmName}{Static Semantic Merge\xspace}
+\newcommand{\ssm}{SSM\xspace}
+
+\newcommand{\code}[1]{\texttt{#1}}
+
+\newcommand{\citePW}{\cite{de2024lightweight,dejesus2023detecting}\xspace}
+\newcommand{\technique}{\textsf{Static Analysis Combination Approach}\xspace}
 
 % ----------------------------------------------------------
 % PERSONALIZAÇÃO DO USUÁRIO
@@ -384,6 +412,8 @@
 % \renewcommand{\bibname}{REFER\^ENCIAS}
 %\renewcommand{\bibname}{Bibliography}
 % \addbibresource{sample.bib}
+
+
 \bibliography{references2}
 
 
