@@ -1,0 +1,32 @@
+%coloca o identificador do anexo/apendice somente na primeira página
+% \includepdf[pages={1},scale=0.8,pagecommand=\chapter{Protocol for Ground Truth Definition}\label{apen:a}]{appendix/appendixA.pdf}
+% \includepdf[pages={2-},scale=0.8,pagecommand={}]{appendix/appendixA.pdf}
+
+
+% Reduz temporariamente o espaço antes do capítulo
+\makeatletter
+\renewcommand{\chapter}{\@startsection{chapter}{0}{\z@}%
+  {-1em}{1em}{\normalfont\huge\bfseries}}
+\makeatother
+
+\includepdf[
+    pages={1},
+    scale=0.9,
+    pagecommand={
+        \chapter*{APPENDIX A}
+        \addcontentsline{toc}{chapter}{APPENDIX A}
+        \label{apen:a}
+        \vspace{-1.5em} % Ajuste fino do espaço logo abaixo do título
+    }
+]{appendix/appendixA.pdf}
+
+% Restaura o chapter original (opcional, mas recomendado)
+\makeatletter
+\renewcommand{\chapter}{\secdef\@chapter\@schapter}
+\makeatother
+
+\includepdf[
+    pages={2-},
+    scale=0.9,
+    pagecommand={}
+]{appendix/appendixA.pdf}
