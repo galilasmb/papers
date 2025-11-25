@@ -1,0 +1,8 @@
+\chapter{Introduction}\label{chap:introduction}
+
+
+As software projects evolve and become increasingly complex and collaborative, effectively managing code integration issues becomes a crucial task. While textual conflicts are well-known and widely addressed by existing tools, they are not the only problems that may arise during the integration process.
+
+In collaborative environments where multiple developers work on different parts of a codebase, inconsistencies can emerge that go undetected by traditional line-based merge tools. These issues, known as semantic conflicts, occur when changes that are syntactically correct nonetheless introduce unintended behaviors or inconsistencies. Semantic conflicts can be further classified into static and dynamic types, each requiring more sophisticated analysis techniques to be identified~\cite{sarma2011palantir, brun2013early, towqir2022detecting, zhang2022using, sung2020towards}.
+
+Textual merge tools, by design, operate on a line-by-line basis and cannot recognize logically incompatible changes that are not contiguous in the source code. For instance, if one developer modifies a method's signature and another, several lines apart, adds a call to the original version of that method, the merged code will compile with no warnings - even though it results in a broken build. This represents a static semantic conflict~\cite{sarma2011palantir, brun2013early, towqir2022detecting, zhang2022using, sung2020towards}.
