@@ -1,8 +1,73 @@
 \chapter{Introduction}\label{chap:introduction}
 
+As software projects evolve and become increasingly complex and collaborative, effectively managing code integration issues becomes a crucial task. Modern software development relies heavily on version control systems and parallel development workflows, where multiple developers simultaneously work on different features or bug fixes. While textual conflicts, inconsistencies that prevent automatic merging at the line level, are well-known and widely addressed by existing tools, they represent only the tip of the iceberg in terms of integration challenges.
 
-As software projects evolve and become increasingly complex and collaborative, effectively managing code integration issues becomes a crucial task. While textual conflicts are well-known and widely addressed by existing tools, they are not the only problems that may arise during the integration process.
+In collaborative environments where multiple developers work on different parts of a codebase, more subtle inconsistencies can emerge that go undetected by traditional line-based merge tools. These issues, known as \emph{semantic conflicts}, occur when changes that are syntactically correct and successfully merge nonetheless introduce unintended behaviors or logical inconsistencies in the integrated code~\cite{sarma2011palantir, brun2013early, towqir2022detecting, zhang2022using, sung2020towards}. Unlike textual conflicts, which are immediately visible during the merge process, semantic conflicts are insidious: they allow the merge to complete successfully, often pass compilation, but introduce subtle bugs that may only manifest during testing or, worse, in production.
 
-In collaborative environments where multiple developers work on different parts of a codebase, inconsistencies can emerge that go undetected by traditional line-based merge tools. These issues, known as semantic conflicts, occur when changes that are syntactically correct nonetheless introduce unintended behaviors or inconsistencies. Semantic conflicts can be further classified into static and dynamic types, each requiring more sophisticated analysis techniques to be identified~\cite{sarma2011palantir, brun2013early, towqir2022detecting, zhang2022using, sung2020towards}.
+Semantic conflicts can be classified based on when they are detected in the software development lifecycle. We adopt the following terminology, where conflicts are categorized according to the development phase in which they surface:
+\begin{itemize}
+    \item \textbf{Merge conflicts:} Textual conflicts detected by version control systems during the merge process, based on line-level changes.
+    \item \textbf{Build conflicts:} Syntactic and static semantic conflicts that cause compilation failures after merging.
+    \item \textbf{Test conflicts:} Dynamic semantic conflicts detected by the test suite after merging.
+    \item \textbf{Production conflicts:} Dynamic semantic conflicts that escape testing and manifest only in production environments.
+\end{itemize}
 
-Textual merge tools, by design, operate on a line-by-line basis and cannot recognize logically incompatible changes that are not contiguous in the source code. For instance, if one developer modifies a method's signature and another, several lines apart, adds a call to the original version of that method, the merged code will compile with no warnings - even though it results in a broken build. This represents a static semantic conflict~\cite{sarma2011palantir, brun2013early, towqir2022detecting, zhang2022using, sung2020towards}.
+Textual merge tools, by design, operate on a line-by-line basis and cannot recognize logically incompatible changes that are not contiguous in the source code. For instance, consider a scenario where one developer modifies a method's signature while another developer, working in a different file or distant location in the same file, adds a call to the original version of that method. The code merges cleanly without any textual conflicts, yet the integrated version fails to compile due to the method signature mismatch. This represents a \emph{build conflict}~\cite{sarma2011palantir, brun2013early, towqir2022detecting, zhang2022using, sung2020towards}, which can be detected through static analysis or compilation.
+
+A more challenging category involves \emph{dynamic semantic conflicts}, which are not detected by either textual merge tools or static analysis tools like compilers. These arise when developers make changes that interact in subtle ways, modifying program behavior without causing compilation errors. For example, if one developer changes the initialization value of a shared variable while another adds code that depends on the original value, the merged code compiles successfully but exhibits incorrect runtime behavior~\cite{horwitz1989integrating, yang1992program, shao2009sca, brun2013early, pastore2017bdci, barros2017using, sousa2018verified, da2020detecting, zhang2022using}.
+
+Throughout this thesis, we focus primarily on \emph{dynamic semantic conflicts}, which we refer to simply as \emph{semantic conflicts}. These conflicts arise when developers modify or use the same \emph{state elements}, program entities that hold or represent the program's state during execution. Such elements include any variable or data structure that can be read or written at runtime. In Java, this encompasses \emph{instance fields}, \emph{static fields}, \emph{local variables}, \emph{method parameters}, and \emph{array elements}. A semantic conflict occurs when a state element is modified by one developer and subsequently used (directly or indirectly) by another, resulting in an \emph{interference} between their changes.
+
+\section{The Problem and Research Challenges}
+
+Dynamic semantic conflicts can negatively impact development productivity and the quality of software products, particularly in projects with divergent forks~\cite{sung2020towards,zhang2022using}, but also in projects with a single remote repository. These conflicts are particularly problematic because they can escape detection during code review and testing, leading to bugs that manifest in production environments where they are more costly to fix and may affect end users.
+
+Traditional approaches to detecting semantic conflicts face several fundamental challenges:
+
+\textbf{Testing-based approaches} can identify some semantic conflicts by running the project's test suite on the merged code and checking for newly failing tests~\cite{da2020detecting, dasilva2023detecting, leuson2024jss}. However, these approaches suffer from several limitations. First, they have low recall -- many semantic conflicts do not cause test failures because test suites rarely achieve complete coverage. Second, not all test failures in merged code indicate semantic conflicts. For instance, consider a scenario where variables \texttt{l} and \texttt{r} are initialized as \texttt{0} in the base version. Developer Left changes the code to initialize \texttt{l} with \texttt{1}, while developer Right changes it to initialize \texttt{r} with \texttt{1} and adds a test that asserts \texttt{r==1 \&\& l==0}. This test passes in Right's version and fails in the merged version, but there is no semantic conflict -- both developers changed unrelated variables independently.
+
+\textbf{Formal verification approaches} using theorem proving~\cite{sousa2018verified} can provide strong guarantees about the absence of conflicts, but they are computationally expensive and require significant expertise to apply. Additionally, they often need formal specifications of intended behavior, which are rarely available in practice.
+
+\textbf{Traditional static analysis approaches} based on System Dependence Graphs (SDGs)~\cite{binkley1995program, barros2017using} can detect interference between developers' changes by analyzing data and control dependencies across all three versions involved in a merge (base, left, and right). While these approaches can be effective, they are computationally expensive because they require constructing and analyzing SDGs for multiple versions of the entire codebase, limiting their scalability to large projects.
+
+Given these limitations, there is a clear need for practical, scalable techniques that can detect semantic conflicts with reasonable accuracy while being efficient enough for integration into standard development workflows.
+
+\section{Research Approach and Contributions}
+
+This thesis investigates the use of \emph{lightweight static analysis} techniques for detecting semantic conflicts in software merges. The key insight behind our approach is that we can approximate interference detection by analyzing only the merged version of the code, which is automatically annotated with information indicating which instructions were modified or added by each developer. This eliminates the need to analyze multiple versions and construct complex intermediate representations like SDGs for each version, significantly reducing computational costs.
+
+Our research addresses three fundamental questions about lightweight static analysis for semantic conflict detection:
+
+\begin{enumerate}
+    \item \textbf{Feasibility:} Can lightweight static analysis techniques effectively detect semantic conflicts by analyzing only the merged version with developer attribution information?
+    
+    \item \textbf{Optimization:} How do different lightweight static analysis techniques and their combinations compare in terms of accuracy (precision and recall) and computational efficiency?
+    
+    \item \textbf{Comparison:} How do lightweight static analysis techniques compare to traditional approaches based on SDGs in terms of both effectiveness and efficiency?
+\end{enumerate}
+
+To answer these questions, this thesis presents three main contributions, each corresponding to a research study:
+
+\textbf{First contribution (Chapter~\ref{chap:lightweight}):} We present a novel lightweight static analysis technique for detecting semantic conflicts that operates solely on the merged version of the code with developer attribution. We propose four analysis variants -- Interprocedural Direct Flow, Intraprocedural Direct Flow, Control Dependence, and Program Dependence Graph -- that identify data and control flow dependencies between instructions changed by different developers. We conduct an empirical evaluation comparing our lightweight approach to existing techniques based on testing, formal verification, and SDG-based static analysis. The results demonstrate that lightweight static analysis can detect semantic conflicts efficiently, though with trade-offs between different metrics.
+
+\textbf{Second contribution (Chapter~\ref{chap:comparing}):} Building on the initial lightweight approach, we conduct a comprehensive investigation of how different lightweight static analysis techniques can be combined to optimize performance. To support this investigation, we implement nine distinct static analyses and systematically explore both their individual effects and their possible combinations. We evaluate the accuracy and computational efficiency of these configurations, revealing that specific combinations can significantly improve precision while maintaining reasonable recall. Our study also identifies optimal configurations for different development scenarios, depending on whether teams prioritize precision, recall, or a balanced trade-off.
+
+\textbf{Third contribution (Chapter~\ref{chap:sdg}):} We present an empirical comparison between lightweight static analysis techniques and traditional SDG-based approaches. While SDG-based techniques have been proposed as theoretically more comprehensive, their practical advantages over lightweight techniques remain unclear, particularly when considering the trade-off between accuracy and computational cost. Our evaluation provides insights into when each approach is most appropriate and how they complement each other in practice.
+
+Together, these contributions provide a comprehensive understanding of lightweight static analysis for semantic conflict detection, from initial feasibility through optimization to comparison with existing state-of-the-art techniques. The insights from this research enable development teams to integrate semantic conflict detection into their workflows with appropriate configurations based on their specific needs and constraints.
+
+\section{Thesis Organization}
+
+The remainder of this thesis is organized as follows:
+
+\textbf{Chapter~\ref{chap:background}} provides the necessary background on version control, merge conflicts, and existing approaches to semantic conflict detection. It establishes the terminology and concepts used throughout the thesis and surveys related work in this area.
+
+\textbf{Chapter~\ref{chap:lightweight}} presents our first contribution: a lightweight static analysis technique for detecting semantic conflicts. This chapter describes the approach in detail, presents the empirical evaluation methodology, and discusses the results demonstrating the feasibility of lightweight analysis.
+
+\textbf{Chapter~\ref{chap:comparing}} presents our second contribution: a systematic comparison of different lightweight static analysis techniques and their combinations. This chapter explores the design space of lightweight analyses and identifies optimal configurations for different scenarios.
+
+\textbf{Chapter~\ref{chap:sdg}} presents our third contribution: an empirical comparison between lightweight static analysis and SDG-based approaches. This chapter provides insights into the trade-offs between these different analysis paradigms.
+
+\textbf{Chapter~\ref{chap:related}} discusses related work in semantic conflict detection, program analysis, and software merging, positioning our contributions within the broader research landscape.
+
+\textbf{Chapter~\ref{chap:conclusions}} concludes the thesis by summarizing our main findings, discussing limitations, and outlining directions for future work in semantic conflict detection and analysis.

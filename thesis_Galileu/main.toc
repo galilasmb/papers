@@ -8,23 +8,26 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase []{Introduction}}{10}{chapter.1}%
+\contentsline {section}{\numberline {1.1}The Problem and Research Challenges}{11}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Research Approach and Contributions}{12}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Thesis Organization}{14}{section.1.3}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Background and Motivation}}{11}{chapter.2}%
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Background and Motivation}}{15}{chapter.2}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{A Lightweight Technique for Detecting Semantic Conflicts with Static Analysis}}{12}{chapter.3}%
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{A Lightweight Technique for Detecting Semantic Conflicts with Static Analysis}}{16}{chapter.3}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Comparing Static Analyses for Improved Semantic Conflict Detection}}{13}{chapter.4}%
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Comparing Static Analyses for Improved Semantic Conflict Detection}}{17}{chapter.4}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Empirical Evaluation of SDG and Lightweight Static Analysis for Detecting Semantic Conflicts in Software Merges}}{14}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Empirical Evaluation of SDG and Lightweight Static Analysis for Detecting Semantic Conflicts in Software Merges}}{18}{chapter.5}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase []{Related Works}}{15}{chapter.6}%
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase []{Related Works}}{19}{chapter.6}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase []{Conclusions}}{16}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Future Work}{16}{section.7.1}%
+\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase []{Conclusions}}{20}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Future Work}{20}{section.7.1}%
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {References}}{17}{section*.13}%
+\contentsline {chapter}{\uppercase {References}}{21}{section*.13}%
 \renewcommand *{\cftappendixname }{APPENDIX \space }
 \setcounter {tocdepth}{1}
 \begingroup \let \l@chapter \l@section \let \l@section \l@subsection 
-\contentsline {chapter}{APPENDIX A}{18}{section*.14}%
+\contentsline {chapter}{APPENDIX A}{23}{section*.14}%
